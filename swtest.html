@@ -16,7 +16,7 @@ if('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js').     
         then(function (reg) {
            console.log('Okay it worked!', reg);
-           alert("서비스워커 설치");
+           
         }).catch(function (err) {        
            console.log('Oops, an error occured', err);     
         });
@@ -25,6 +25,6 @@ if('serviceWorker' in navigator) {
 </script>
 </head>
 <body>
-
+<h1>서비스워커 생성</h1>
 </body>
 </html>
