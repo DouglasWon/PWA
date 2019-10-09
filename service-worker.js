@@ -1,7 +1,5 @@
 var CACHE_NAME = 'cache‐v1'; 
 var filesToCache = [
-    'swtest.html',   
-    'favicon.ico',
     './img/3.gif',    
     './img/1.gif',   
     './img/2.gif'       
