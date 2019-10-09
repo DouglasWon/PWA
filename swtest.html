@@ -16,6 +16,7 @@ if('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js').     
         then(function (reg) {
            console.log('Okay it worked!', reg);
+           alert("서비스워커 설치");
         }).catch(function (err) {        
            console.log('Oops, an error occured', err);     
         });
@@ -24,16 +25,6 @@ if('serviceWorker' in navigator) {
 </script>
 </head>
 <body>
-<ul>
-<li>
-<img src="./img/3.gif" style="width:300px"/>
-</li>
-<li>
-<img src="./img/1.gif" style="width:300px"/>
-</li>
-<li>
-<img src="./img/2.gif" style="width:300px"/>
-</li>
-</ul>
+
 </body>
 </html>
