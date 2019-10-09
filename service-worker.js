@@ -1,7 +1,6 @@
 var CACHE_NAME = 'cache‐v1'; 
 var filesToCache = [
-    './img/3.gif',    
-    './img/1.gif',   
+    './img/4.gif',    
     './img/2.gif'       
     ];
 
