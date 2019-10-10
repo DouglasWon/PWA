@@ -2,8 +2,8 @@ var CACHE_NAME = 'cache‐v2';
 var filesToCache = [
     './img/4.gif',    
     './img/2.gif',
-    './noncache.html',
-    './favicon.ico',      
+    'noncache.html',
+    'favicon.ico',      
     ];
 
 self.addEventListener('install', function(event) {   
