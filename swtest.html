@@ -11,8 +11,10 @@ ul {
 }
 </style>
 <script>
+console.log('1');
 if('serviceWorker' in navigator) {
-   navigator.serviceWorker.register('service-worker.js').     
+  console.log('2');
+  navigator.serviceWorker.register('service-worker.js').     
       then(function (reg) {
       console.log('Okay it worked!', reg);
    }).catch(function (err) {        
